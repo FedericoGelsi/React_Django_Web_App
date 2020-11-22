@@ -12,7 +12,8 @@ export default class App extends Component {
       return (
         <div>
           <HomePage></HomePage>
-        </div>);
+        </div>
+        );
     }
   }
   

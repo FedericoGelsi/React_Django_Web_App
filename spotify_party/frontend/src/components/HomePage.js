@@ -8,7 +8,7 @@ import {
     Switch,
     Route,
     Link,
-    Redirect
+    Redirect,
 } from 'react-router-dom';
 
 export default class HomePage extends Component {
@@ -21,7 +21,7 @@ export default class HomePage extends Component {
             <Router>
                 <Switch>
                     <Route exact path='/'>
-                        <p>This is the home page</p>
+                        <p>This is the fuck page</p>
                     </Route>
                     <Route path='/join' component={JoinRoomPage}></Route>
                     <Route path='/create' component={CreateRoomPage}></Route>
